@@ -1,0 +1,69 @@
+///aanpassing voor: node_modules/scss/variabeles.scss #72   bootstrap v4.4.1
+$primary: rgb(218,165,32)
+
+///aanpassing voor: node_modules/scss/variabeles.scss #8   bootstrap v4.4.1
+$white: #e3e3e3
+
+@import "../node_modules/bootstrap/scss/bootstrap"
+
+///Toon eigen css pas nadat Bootstrap is geladen, anders wordt het overschreven
+body
+ background-color: #e5e5e5
+
+.display-1
+ font-size: 2em
+
+.jumbotron
+ background-image: url('../img/theMightyDwarfs.jpg')
+ background-size: cover
+
+.display-1
+ text-shadow:  2px 0 hsl(110,5%,75%), 4px 0 hsl(110,5%,20%)
+.display-4
+ text-shadow:  2px 0 hsl(110,5%,20%), 4px 0 hsl(110,5%,20%)
+ font-size: 1em
+
+@media screen and (min-width: 640px)
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&')
+
+ .jumbotron
+  background-image: url('../img/elven.jpg')
+
+
+ header
+  min-height: 260px
+  object-fit: cover
+
+ h1, h3
+  font-family: Roboto, sans-serif, cursive
+
+ h3
+  font-size: 1.5rem
+
+
+ article > h4
+  padding-top: 1em
+  min-height: 50px
+  font-size: 20px
+
+
+ .centr > p
+  min-height: 130px
+
+ .card
+  padding: 0 1em 1em
+  h3
+   font-size: 2em
+  h4
+   padding-top: 1em
+  .centr
+   min-height: 300px
+
+ .display-1  .display-4
+  font-size: 2em
+
+ .display-1
+  text-shadow: 2px 0 hsl(110,5%,20%), 4px 0 hsl(110,5%,20%)
+ .display-4
+  text-shadow: 2px 0 hsl(110,5%,75%), 4px 0 hsl(110,5%,20%)
+  font-size: 3em

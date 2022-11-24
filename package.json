@@ -1,0 +1,32 @@
+{
+  "name": "lotr-master",
+  "version": "1.0.0",
+  "description": "Leren Bootstrap op pagina - met NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LeroyAndrade/L1P4-Bootstrap1.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "NPM",
+    "installatie",
+    "Lord",
+    "of",
+    "the",
+    "Rings"
+  ],
+  "author": "Leroy Andrade",
+  "license": " Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LeroyAndrade/L1P4-Bootstrap1/issues"
+  },
+  "homepage": "https://github.com/LeroyAndrade/L1P4-Bootstrap1#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery-match-height": "^0.7.2"
+  }
+}
